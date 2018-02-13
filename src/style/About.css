@@ -1,0 +1,42 @@
+
+
+
+.about {
+    /* min-height: 100%; */
+    background: url("./images/wooden-min.jpeg") repeat-x 50% bottom;
+    height: calc(97vh);
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    /* width: 100%; */
+    /* height: auto; */
+    /* border: 1px solid red; */
+    overflow: hidden;
+    height: auto;
+}
+
+.about__container {
+    scroll-behavior: smooth;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 8rem auto;
+    flex-wrap: wrap; 
+    max-width: 50rem;
+    line-height: 1.333;
+    letter-spacing: 0.375px;
+    font-size: 1.75rem;
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.about__logo {
+    width: 8rem;
+    height: auto;
+    margin-top: -20px;
+    padding: 0 0 0 0px;
+    border: 0 0 0 0px;
+}
