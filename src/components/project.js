@@ -7,7 +7,8 @@ import nodeJs from './nodejs-icon.svg';
 import mongoDb from './mongodb.svg';
 import css3 from './css3.svg';
 import projects from './projects.svg';
-import { Card, Icon } from 'semantic-ui-react'
+import { Card, Icon, Divider } from 'semantic-ui-react'
+
 
 const ConnectDescription = [
   'Reach out for new customer'
@@ -26,7 +27,7 @@ class Menu extends Component {
     render(){
     return(
         <section id="projects" className="project">
-                <img className="project__logo" src={projects} alt="projects"></img>
+                <Divider horizontal><h1><img className="project__logo" src={projects} alt="projects"></img></h1>Project</Divider>
 
                 <div className="project__container">
                  <div className="project__wrapper">
