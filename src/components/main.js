@@ -8,7 +8,7 @@ class Main extends Component {
     return(
             <section id="intro" className="intro">
              <article className="intro__container">
-                <span className="intro__title">Hello.</span>
+                <span className="intro__title">Hello</span>
                 My name is Csaba. I'm a Southern California based full-stack developer who loves to create reliable and scalable web applications.
                 </article>
             </section>
