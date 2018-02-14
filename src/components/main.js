@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../style/Main.css';
+import { Divider } from 'semantic-ui-react'
 
 
 class Main extends Component {

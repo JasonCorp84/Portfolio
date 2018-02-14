@@ -5,16 +5,20 @@ import Main from './components/main.js';
 import Project from './components/project.js';
 import About from './components/about.js';
 import Social from './components/social';
-
+import { Divider } from 'semantic-ui-react'
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Menu /><br/>
-        <Main/>
+        <Main />
+        <Divider />
         <About />
+        <Divider />
         <Project />
+        <Divider />
         <Social />
+        <Divider />
       </div>
     );
   }
