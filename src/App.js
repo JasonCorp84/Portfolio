@@ -6,10 +6,14 @@ import Project from './components/project.js';
 import About from './components/about.js';
 import Social from './components/social';
 import { Divider } from 'semantic-ui-react'
+
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+      {/* <scroll-container> */}
         <Menu /><br/>
         <Main />
         <Divider />
@@ -19,6 +23,7 @@ class App extends Component {
         <Divider />
         <Social />
         <Divider />
+        {/* </scroll-container> */}
       </div>
     );
   }

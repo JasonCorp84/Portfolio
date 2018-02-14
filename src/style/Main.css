@@ -36,7 +36,7 @@
     font-size: 4rem;
     font-weight: 400;
     text-shadow: none;
-    color: royalblue;
+    color: #89bae8;
 }
 
 
@@ -80,8 +80,8 @@
         font-size: 5rem;
         font-weight: 400;
         text-shadow: none;
-        color: royalblue;
-    }
+        color: #89bae8;
+        }
     
     
     }
@@ -126,7 +126,7 @@
             font-size: 5rem;
             font-weight: 400;
             text-shadow: none;
-            color: royalblue;
+            color: #89bae8;
         }
         
         
@@ -170,7 +170,7 @@
                 font-size: 5rem;
                 font-weight: 400;
                 text-shadow: none;
-                color: royalblue;
+                color: #89bae8;
             }
             
             
@@ -206,6 +206,7 @@
                     position: relative;
                     top: 12vh;
                     text-align: left;
+                    color: #242e2e
                 }
                 
                 .intro__title {
@@ -214,7 +215,7 @@
                     font-size: 5rem;
                     font-weight: 400;
                     text-shadow: none;
-                    color: royalblue;
+                    color: #89bae8;
                 }
                 
                 
