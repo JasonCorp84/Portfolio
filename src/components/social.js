@@ -12,7 +12,7 @@ class Social extends Component {
             <div className="social__container">                       
             <a href="https://github.com/JasonCorp84" target="_blank"><Button circular size='massive' color='github' icon='github'/></a>
             <a href="https://twitter.com/CsaBalogh" target="_blank"><Button circular size='massive' color='twitter' icon='twitter' /></a>
-            <Button circular size='massive' color='linkedin' icon='linkedin' />
+            <a href="https://www.linkedin.com/in/csaba-balogh-1228647a/" target="_blank"><Button circular size='massive' color='linkedin' icon='linkedin' /></a>
             <Button circular size='massive' color='google plus' icon='google plus' />
                 </div>
         </section>
